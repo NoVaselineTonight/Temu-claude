@@ -1,0 +1,6 @@
+_INAPP_RE = re.compile(r"savings? account|\b(to|into|in) (my )?savings\b|\bbuffer\b|\bfunds?\b|\binvest\w*|"
+                       r"säästötil\w*|säästöön\b|rahasto\w*|sijoit\w*", re.I)
+_EXTERNAL_RE = re.compile(r"\b(pay|paying|wire|send|withdraw|top up|payment|rent|bills?|invoice|iban|another bank|other bank|"
+                          r"someone|friend|account number|mobilepay|paypal|revolut|nordea|op|danske)\b|"
+                          r"\b[A-Z]{2}\d{2}(?:\s?[A-Z0-9]{4}){2,}|\bmaksa\w*|\blähetä\w*|\bnosta\b|\blasku\w*|"
+                          r"\bvuokra\w*|\bkaveri\w*", re.I)

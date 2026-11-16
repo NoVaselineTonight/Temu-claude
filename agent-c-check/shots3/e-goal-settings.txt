@@ -1,0 +1,9 @@
+Savings goal
+
+Used to say what a purchase does to your goal. Nothing is moved automatically.
+
+Name
+Target (euros)
+Saved so far (euros)
+Save
+Clear

@@ -1,0 +1,15 @@
+[
+ {"go":"http://127.0.0.1:8020/","after":1},
+ {"js":"fetch('/api/demo/login',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({id:'gfizxEDXiUj-wIuI'})}).then(r=>r.status)"},
+ {"go":"http://127.0.0.1:8020/","after":2.5},
+ {"js":"document.querySelector('.acct-card').click();1","after":2},
+ {"shot":"20-account","full":true},
+ {"go":"http://127.0.0.1:8020/","after":2.5},
+ {"js":"document.querySelector('#gear-btn').click();1","after":2},
+ {"shot":"21-settings","full":true},
+ {"go":"http://127.0.0.1:8020/","after":2.5},
+ {"js":"[...document.querySelectorAll('.tool')].find(b=>b.textContent.includes('Until payday')).click();1","after":3},
+ {"shot":"22-payday","full":false},
+ {"js":"document.querySelectorAll('details').forEach(d=>d.open=true);document.querySelectorAll('.act-btn').forEach(b=>b.click());1","after":1},
+ {"shot":"23-payday-open","full":true}
+]
